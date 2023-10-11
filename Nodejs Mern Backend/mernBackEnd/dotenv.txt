@@ -1,0 +1,16 @@
+it is used to hide the data from hackers ...
+
+npm i dotenv
+
+it will have a fil>>> 
+
+we will add our confidential data here in variables..
+and we will simply call it at the part wehere we need it
+
+
+steps: 
+
+1. require('dotenv').config();    >>> at top of app.js 
+
+2. now make a file in root folder named as  ".env"
+

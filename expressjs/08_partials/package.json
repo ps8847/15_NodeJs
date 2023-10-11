@@ -1,0 +1,16 @@
+{
+    "name": "expressbyprince",
+    "version": "1.0.0",
+    "description": "express tuts ",
+    "main": "01_app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "prince",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "hbs": "^4.2.0",
+        "requests": "^0.3.0"
+    }
+}

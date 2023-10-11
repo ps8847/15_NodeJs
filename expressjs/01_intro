@@ -1,0 +1,10 @@
+express.js iss a node js framwork. its the  most popular framework as of now 
+
+it is a wbe application framework that provides you with a simple api to build websites , web apps and back ends.
+
+
+
+
+why express?
+
+try to writea small rest api server in plain node.js (that is only core modules) and then in express.js. the latter will take you 5-10x less time and lines of code.

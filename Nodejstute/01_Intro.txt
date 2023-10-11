@@ -1,0 +1,20 @@
+node js is a javascript runtime build on chrome's v8 javascript engine
+
+node js is a js running on a server
+
+
+*****************
+
+when to use nodejs?
+
+i/o bound
+data streaming applications 
+real time chat application 
+
+
+*********************
+
+node js repl 
+the repl feature of node js is very useful in experimenting with nodejs coes and to debug javascript codes 
+
+read,eval,parse,

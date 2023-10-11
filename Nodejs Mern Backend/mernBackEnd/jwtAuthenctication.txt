@@ -1,0 +1,12 @@
+const jwt = require('jsonwebtoken')
+
+const createToken = async() => {
+   const token =  jwt.sign({_id:"63369866d33bd104f4d12f0c"} , "1234567890123456123456789012345656789", {
+    expiresIn: "2 seconds"
+   });
+   console.log(token);
+
+   const userVer = await jwt.verify(token , "1234567890123456123456789012345656789");
+   console.log(userVer);
+}
+createToken()

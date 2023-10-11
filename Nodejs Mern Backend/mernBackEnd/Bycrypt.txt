@@ -1,0 +1,34 @@
+it will do the encryption
+
+it will use Encryption + hashing  >>  and will generate non readable form of text
+
+it gets 3 years +  to crack this non readable code
+
+
+
+
+what if we use Md5 ? 
+
+go to md5 Online converter >>
+
+convert your text to hashed code 
+
+paste that hashed code in google >>
+
+yeah,,, you are hacker now.
+
+
+const bcrypt = require("bcryptjs");
+
+const securePassword = async(password) => {
+
+    // tp incrypt
+    const passwordHash = await bcrypt.hash(password, 10) // 10 are rounds
+    console.log(passwordHash);
+
+    // to decrypt  (not descypt) >> we will match the password entered with the password stored
+    const passwordMatch = await bcrypt.compare(password, passwordHash) // 10 are rounds
+    console.log(passwordMatch);
+
+}
+securePassword("prince@123")
